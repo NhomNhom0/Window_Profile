@@ -3,7 +3,7 @@ winfetch
 # set PowerShell to UTF-8
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
-$omp_config = Join-Path $env:POSH_THEMES_PATH "montys.omp.json"
+$omp_config = Join-Path $env:POSH_THEMES_PATH "clean-detailed.omp.json"
 oh-my-posh init pwsh --config $omp_config | Invoke-Expression
 
 # PSReadLine
@@ -33,9 +33,10 @@ function mcd {
 }
 
 # Alias
-Remove-Alias cls, clear
+#Remove-Alias cls, clear
 Set-Alias rfenv refreshenv
 Set-Alias ll ls 
 Set-Alias g git
 Set-Alias grep findstr
 Set-Alias cls clear
+

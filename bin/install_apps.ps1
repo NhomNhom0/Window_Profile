@@ -23,10 +23,10 @@ Welcome to Apps Installer <3
 
 function CloneRepo {
     if (![System.IO.Directory]::Exists($ConfigRoot)) {
-        git clone https://github.com/hungpham3112/.dotfiles_Windows.git $ConfigRoot
+        git clone https://github.com/NhomNhom0/Window_Profile.git $ConfigRoot
     } else {
         rd $ConfigRoot -Recurse -Force
-        git clone https://github.com/hungpham3112/.dotfiles_Windows.git $ConfigRoot
+        git clone https://github.com/NhomNhom0/Window_Profile.git $ConfigRoot
     }
 }
 
@@ -66,7 +66,7 @@ function PrintFinalMessage {
 
 function InstallApps {
     scoop install sudo
-    sudo scoop import $ConfigRoot/scoop/apps.txt
+    sudo scoop import $ConfigRoot/scoop/scoop_zip.txt
 }
 
 function CheckSuccessful {
@@ -111,15 +111,6 @@ function SymlinkWTSettings {
     CheckSuccessful "Symlink" "Windows Terminal"
 }
 
-function ClonePythonRepo {
-    sudo git clone https://github.com/hungpham3112/PythonProjects.git $HOME/PythonProjects
-    CheckSuccessful "Clone" "Python repository"
-}
-
-function CloneJuliaRepo {
-    sudo git clone https://github.com/hungpham3112/JuliaProjects.git $HOME/JuliaProjects
-    CheckSuccessful "Clone" "Julia repository"
-}
 
 function Main {
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -129,8 +120,6 @@ function Main {
     InstallApps
     SymlinkPSSettings
     SymlinkWTSettings
-    CloneJuliaRepo
-    ClonePythonRepo
     PrintFinalMessage
 }
 
