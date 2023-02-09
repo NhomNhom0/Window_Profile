@@ -60,6 +60,13 @@
             "Updated": "2023-01-17T23:32:56.1034004+07:00"
         },
         {
+            "Name": "anaconda3",
+            "Version": "2022.10",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-09T17:31:08.1848475+07:00"
+        },
+        {
             "Name": "busybox",
             "Version": "4784-g5507c8744",
             "Source": "main",
