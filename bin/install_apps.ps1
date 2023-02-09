@@ -72,7 +72,7 @@ function InstallApps {
 
 function InstallNvimchad {
     git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
-  }
+}
 
 
 function CheckSuccessful {
@@ -124,6 +124,7 @@ function Main {
     CloneRepo
     InstallScoop
     InstallApps
+    InstallNvimchad
     SymlinkPSSettings
     SymlinkWTSettings
     PrintFinalMessage
