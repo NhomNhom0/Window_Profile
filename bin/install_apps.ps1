@@ -70,6 +70,11 @@ function InstallApps {
     sudo scoop import $ConfigRoot/scoop/scoop_zip.txt
 }
 
+function InstallNvimchad {
+    git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+  }
+
+
 function CheckSuccessful {
     param (
         [string] $action,
