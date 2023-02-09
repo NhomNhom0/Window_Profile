@@ -25,6 +25,12 @@
             "Manifests": 214
         },
         {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2023-02-09T09:01:24+07:00",
+            "Manifests": 126
+        },
+        {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
             "Updated": "2023-02-09T15:38:03+07:00",
@@ -241,6 +247,13 @@
             "Source": "extras",
             "Info": "",
             "Updated": "2023-02-06T12:56:59.3346132+07:00"
+        },
+        {
+            "Name": "sql-server-management-studio-np",
+            "Version": "19.0.20200.0",
+            "Source": "nonportable",
+            "Info": "",
+            "Updated": "2023-02-09T17:19:07.703274+07:00"
         },
         {
             "Name": "steam",
