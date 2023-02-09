@@ -200,6 +200,13 @@
             "Updated": "2023-01-18T00:00:15.615136+07:00"
         },
         {
+            "Name": "obs-studio",
+            "Version": "29.0.2",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-09T17:38:36.6823169+07:00"
+        },
+        {
             "Name": "oh-my-posh",
             "Version": "12.23.0",
             "Source": "main",
