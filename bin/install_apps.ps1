@@ -122,8 +122,8 @@ function SymlinkWTSettings {
 function Main {
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     PrintLogo
-    CloneRepo
     InstallScoop
+    CloneRepo
     InstallApps
     InstallNvimchad
     SymlinkPSSettings
