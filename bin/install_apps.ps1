@@ -71,7 +71,8 @@ function InstallApps {
 }
 
 function InstallNvimchad {
-    git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+    git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1
+    nvim 1>$null 2>$null
 }
 
 
