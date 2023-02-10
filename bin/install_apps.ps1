@@ -70,10 +70,10 @@ function InstallApps {
     sudo scoop import $ConfigRoot/scoop/scoop_zip.txt
 }
 
-function InstallNvimchad {
-    git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1
-    nvim 1>$null 2>$null
-}
+# function InstallNvimchad {
+#     git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1
+#     nvim 1>$null 2>$null
+# }
 
 
 function CheckSuccessful {
@@ -125,7 +125,7 @@ function Main {
     InstallScoop
     CloneRepo
     InstallApps
-    InstallNvimchad
+#     InstallNvimchad
     SymlinkPSSettings
     SymlinkWTSettings
     PrintFinalMessage
