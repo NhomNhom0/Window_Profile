@@ -1,0 +1,357 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 1774
+        },
+        {
+            "Name": "games",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 258
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2023-02-14T12:42:44+07:00",
+            "Manifests": 1162
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 214
+        },
+        {
+            "Name": "nonportable",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 126
+        },
+        {
+            "Name": "versions",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 412
+        }
+    ],
+    "apps": [
+        {
+            "Name": "7zip",
+            "Version": "22.01",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:13:09.8036094+07:00"
+        },
+        {
+            "Name": "adb",
+            "Version": "33.0.3",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:15:17.4043144+07:00"
+        },
+        {
+            "Name": "alacritty",
+            "Version": "0.11.0",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:15:20.8901103+07:00"
+        },
+        {
+            "Name": "anaconda3",
+            "Version": "2022.10",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:22:33.3565167+07:00"
+        },
+        {
+            "Name": "auto-dark-mode-np",
+            "Version": "10.3.0.90",
+            "Info": "",
+            "Source": "nonportable",
+            "Updated": "2023-02-10T15:25:44.1532907+07:00"
+        },
+        {
+            "Name": "busybox",
+            "Version": "4784-g5507c8744",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:22:38.1910379+07:00"
+        },
+        {
+            "Name": "discord",
+            "Version": "1.0.9007-14",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:23:04.6969053+07:00"
+        },
+        {
+            "Name": "docker",
+            "Version": "23.0.1",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:23:08.8560736+07:00"
+        },
+        {
+            "Name": "epic-games-launcher",
+            "Version": "14.2.1",
+            "Info": "",
+            "Source": "games",
+            "Updated": "2023-02-10T11:25:25.9811427+07:00"
+        },
+        {
+            "Name": "gh",
+            "Version": "2.23.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:28:52.6933408+07:00"
+        },
+        {
+            "Name": "git",
+            "Version": "2.39.1.windows.1",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:13:34.2736784+07:00"
+        },
+        {
+            "Name": "github",
+            "Version": "3.1.6",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:30:12.2477383+07:00"
+        },
+        {
+            "Name": "julia",
+            "Version": "1.8.5",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:31:23.2815847+07:00"
+        },
+        {
+            "Name": "make",
+            "Version": "4.4",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:33:31.9066125+07:00"
+        },
+        {
+            "Name": "neovim",
+            "Version": "0.8.3",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T12:04:20.7489068+07:00"
+        },
+        {
+            "Name": "nodejs",
+            "Version": "19.6.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:35:37.6335294+07:00"
+        },
+        {
+            "Name": "notion",
+            "Version": "2.0.39",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:36:14.1855847+07:00"
+        },
+        {
+            "Name": "nu",
+            "Version": "0.75.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:36:36.0198576+07:00"
+        },
+        {
+            "Name": "obs-studio",
+            "Version": "29.0.2",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:37:45.3562057+07:00"
+        },
+        {
+            "Name": "oh-my-posh",
+            "Version": "14.2.5",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:38:21.5715744+07:00"
+        },
+        {
+            "Name": "powertoys",
+            "Version": "0.67.1",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:41:57.0046791+07:00"
+        },
+        {
+            "Name": "pwsh",
+            "Version": "7.3.2",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:42:57.3397312+07:00"
+        },
+        {
+            "Name": "python",
+            "Version": "3.11.2",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:44:01.7499027+07:00"
+        },
+        {
+            "Name": "ripgrep",
+            "Version": "13.0.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T16:10:23.9059184+07:00"
+        },
+        {
+            "Name": "rtools",
+            "Version": "4.2.5355.5357",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-14T13:17:52.4712058+07:00"
+        },
+        {
+            "Name": "rufus",
+            "Version": "3.21",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:44:06.7937014+07:00"
+        },
+        {
+            "Name": "sharpkeys",
+            "Version": "3.9.4",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:44:09.0412616+07:00"
+        },
+        {
+            "Name": "snipaste",
+            "Version": "1.16.2",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:44:46.2293962+07:00"
+        },
+        {
+            "Name": "spotify",
+            "Version": "1.2.4.912.g949d5fd0",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:45:08.9345305+07:00"
+        },
+        {
+            "Name": "sql-server-management-studio-np",
+            "Version": "19.0.20200.0",
+            "Info": "",
+            "Source": "nonportable",
+            "Updated": "2023-02-10T11:51:11.279817+07:00"
+        },
+        {
+            "Name": "steam",
+            "Version": "nightly-20230210",
+            "Info": "",
+            "Source": "versions",
+            "Updated": "2023-02-10T11:51:12.4724989+07:00"
+        },
+        {
+            "Name": "sudo",
+            "Version": "0.2020.01.26",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:13:34.7925929+07:00"
+        },
+        {
+            "Name": "telegram",
+            "Version": "4.6.2",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:51:32.7232903+07:00"
+        },
+        {
+            "Name": "thonny",
+            "Version": "4.0.2",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:51:53.3264338+07:00"
+        },
+        {
+            "Name": "vcredist2022",
+            "Version": "14.34.31931.0",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:52:25.1074056+07:00"
+        },
+        {
+            "Name": "vim",
+            "Version": "9.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:53:02.6637977+07:00"
+        },
+        {
+            "Name": "vim-nightly",
+            "Version": "9.0.1294",
+            "Info": "",
+            "Source": "versions",
+            "Updated": "2023-02-10T11:53:24.9021664+07:00"
+        },
+        {
+            "Name": "vimtutor",
+            "Version": "0.2018.07.25",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:53:25.3840751+07:00"
+        },
+        {
+            "Name": "vscode",
+            "Version": "1.75.1",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:53:52.5159088+07:00"
+        },
+        {
+            "Name": "windows-terminal",
+            "Version": "1.16.10261.0",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:54:04.7685597+07:00"
+        },
+        {
+            "Name": "winfetch",
+            "Version": "2.5.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2023-02-10T11:54:05.2143197+07:00"
+        },
+        {
+            "Name": "winrar",
+            "Version": "6.20",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:54:20.8856406+07:00"
+        },
+        {
+            "Name": "wpsoffice",
+            "Version": "11.2.0.11440",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2023-02-10T11:55:18.719722+07:00"
+        },
+        {
+            "Name": "cousine-NF-Mono",
+            "Version": "2.3.3",
+            "Info": "Global install",
+            "Source": "nerd-fonts",
+            "Updated": "2023-02-10T11:55:24.1775954+07:00"
+        },
+        {
+            "Name": "Hack-NF",
+            "Version": "2.3.3",
+            "Info": "Global install",
+            "Source": "nerd-fonts",
+            "Updated": "2023-02-10T11:55:32.0891099+07:00"
+        }
+    ]
+}

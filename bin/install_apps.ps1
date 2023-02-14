@@ -67,7 +67,7 @@ function PrintFinalMessage {
 function InstallApps {
     scoop install git
     scoop install sudo
-    sudo scoop import $ConfigRoot/scoop/scoop_zip.txt
+    sudo scoop import $ConfigRoot/scoop/scoop_apps.json
 }
 
 # function InstallNvimchad {
