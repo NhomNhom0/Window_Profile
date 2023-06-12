@@ -25,6 +25,7 @@
     "gpu"
     "memory"
     "disk"
+    "battery"
     "custom_time"
     "blank"
     "colorbar"
