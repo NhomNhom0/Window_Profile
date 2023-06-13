@@ -1,7 +1,7 @@
 # ===== WINFETCH CONFIGURATION =====
 
  #$image = "$env:USERPROFILE/.config/winfetch/image.png"
- $logo = "Windows 10"
+ $logo = "Windows 7"
  $ShowDisks = @("C:")
  $ShowPkgs = @("scoop")
  function info_custom_time {
