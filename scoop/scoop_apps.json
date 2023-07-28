@@ -74,13 +74,6 @@
         },
         {
             "Info": "",
-            "Source": "extras",
-            "Name": "anaconda3",
-            "Version": "2022.10",
-            "Updated": "2023-02-10T11:22:33.3565167+07:00"
-        },
-        {
-            "Info": "",
             "Source": "nonportable",
             "Name": "auto-dark-mode-np",
             "Version": "10.3.0.90",
@@ -232,13 +225,6 @@
             "Name": "oh-my-posh",
             "Version": "14.9.2",
             "Updated": "2023-03-03T07:58:58.8727956+07:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "openssl",
-            "Version": "3.1.0",
-            "Updated": "2023-05-15T20:10:27.4101003+07:00"
         },
         {
             "Info": "",
